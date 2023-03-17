@@ -5,7 +5,18 @@
 #include <stdio.h>
 
 int main() {
-  printf("Hello World");
+  int mark1,mark2;
+  float average;
+
+  printf("Enter Mark 1:");
+  scanf("%d", &mark1);
+  
+  printf("Enter Mark 2:");
+  scanf("%d", &mark2);
+
+  average=(mark1 + mark2)/2;
+
+  printf("The average of Two Marks is %.2f\n",average);
   return 0;
 }
 
